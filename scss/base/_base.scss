@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  height: 100vh; // necessary if it's a tall window with little content
+  @extend %PrimaryFont;
+  background-color: $site-base-light-color;
+  color: $site-base-primary-color;
+}
+
+#top, #bottom, #left, #right {
+	background: $site-base-primary-color;
+	position: fixed;
+	}
+
+// Universal borders all the way around
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 10px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 10px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
+
+a {
+  color: $site-base-primary-color;
+  .current & {
+   color: $site-base-primary-color;
+   text-decoration: underline;
+  }
+}

@@ -1,0 +1,74 @@
+// breakpoints
+
+$S:     480px;
+$M:     768px;
+$L:     1170px;
+
+// media queries
+
+@mixin MQ($canvas) {
+  @if $canvas == S {
+   @media only screen and (min-width: $S) { @content; }
+  }
+  @else if $canvas == M {
+   @media only screen and (min-width: $M) { @content; }
+  }
+  @else if $canvas == L {
+   @media only screen and (min-width: $L) { @content; }
+  }
+  @else if $canvas == SL {
+   @media only screen and (min-width: $S) and (max-width: $L){ @content; }
+  }
+}
+
+@mixin standard-icon {
+  border: none;
+  color: transparent;
+  background-color: transparent;
+  transition: all .3s ease;
+  &:focus {
+    outline:none;
+  }
+}
+
+@mixin hightlight {
+  /* used for the main navigation */
+  content: '';
+  position: absolute;
+  top: 1.25em;
+  left: -1px;
+  height: 50%;
+  border-radius: 15px;
+  width: 4px;
+  background-color: #85DB80;
+  transition: opacity 0.2s;
+  pointer-events: none;
+}
+
+
+// Center vertically and/or horizontally an absolute positioned element
+@mixin center($xy:xy) {
+  @if $xy == xy {
+    left: 50%;
+    top: 50%;
+    bottom: auto;
+    right: auto;
+    @include transform(translateX(-50%) translateY(-50%));
+  }
+  @else if $xy == x {
+    left: 50%;
+    right: auto;
+    @include transform(translateX(-50%));
+  }
+  @else if $xy == y {
+    top: 50%;
+    bottom: auto;
+    @include transform(translateY(-50%));
+  }
+}
+
+// Super light grid - it works with the .cd-container class inside style.scss
+@mixin column($percentage, $float-direction:left) {
+  width: 100% * $percentage;
+  float: $float-direction;
+}

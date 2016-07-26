@@ -1,0 +1,95 @@
+header {
+  display: flex;
+  padding: ($desktop-padding - 1em) ($desktop-padding - 1em) 0 ($desktop-padding - 1em);
+  flex-direction: column;
+  h1 {
+    color: $site-base-primary-color;
+    text-align: left;
+    font-size: $heading;
+    @include MQ(S) {
+      margin-bottom: 0;
+    }
+  }
+  span {
+    display: none;
+    @extend %AltFont;
+    @include MQ(S) {
+      display: inline;
+      text-align: left;
+    }
+  }
+  @include MQ(S) {
+    padding: $desktop-padding $desktop-padding 1em $desktop-padding;
+  }
+}
+
+.filter-box {
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  padding: 0 ($desktop-padding - 1em);
+  .filter {
+    @extend %SecondaryFont;
+    font-size: $primary;
+    background: $site-base-light-color;
+    color: $site-base-primary-color;
+    border: 3.5px solid $site-base-primary-color;
+    padding: 0.35em 2.25em;
+    margin: 0.5em 0.5em;
+    cursor: pointer;
+    transition: background 0.2s;
+    transition-delay: color 0.5s;
+    &:first-of-type {
+      padding: 0.35em 1.5em;
+    }
+    &:hover {
+      @extend %PrimaryFont;
+      color: $site-base-light-color;
+      background: $site-base-primary-color;
+    }
+    @include MQ(S) {
+      margin: 1em 1em;
+    }
+  }
+  .filter.active_filter {
+    @extend %PrimaryFont;
+    color: $site-base-light-color;
+    background: $site-base-primary-color;
+  }
+  @include MQ(S) {
+    padding-left: ($desktop-padding - 1em);
+  }
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 ($desktop-padding - 0.5em);
+  .tile {
+    height: auto;
+    margin-top: 1em;
+    &:hover {
+      opacity: 0.9;
+      cursor: zoom-in;
+      transition: all 0.3s ease-in-out;
+    }
+    .caption-box {
+      display: none;
+    }
+    .image-tile {
+      width: 100%;
+      @include MQ(S) {
+        max-width: 300px;
+      }
+      @include MQ(L) {
+        max-width: 450px;
+      }
+    }
+  }
+
+  @include MQ(S) {
+    padding-left: $desktop-padding;
+    padding-right: $desktop-padding;
+  }
+}
