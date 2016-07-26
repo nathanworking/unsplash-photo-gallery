@@ -145,6 +145,9 @@ header {
       @media (max-height: 1250px) {
         margin-bottom: 0;
       }
+      @media (min-width: 1250px) {
+        margin: 0 auto 5% auto;
+      }
     }
 /* Hide toolbar becuase I don't need these right now */
   div.lg-toolbar.group{
