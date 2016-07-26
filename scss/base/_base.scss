@@ -1,7 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  text-align: center;
   height: 100vh; // necessary if it's a tall window with little content
   @extend %PrimaryFont;
   background-color: $site-base-light-color;

@@ -1,0 +1,1 @@
+$("#lightgallery").lightGallery({download:!1,counter:!1,zoom:!1,thumbnail:!1,mode:"lg-fade"});
