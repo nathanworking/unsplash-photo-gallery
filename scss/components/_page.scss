@@ -158,7 +158,11 @@ header {
 
   /// Edits to Photo grid view & lightbox view (after lightbox style overrides becuase these are even more specific)
  .content {
+   -webkit-column-count: 1;
+   -moz-column-count: 1;
    column-count: 1;
+   -webkit-column-gap: 0;
+   -moz-column-gap: 0;
    column-gap: 0;
    padding: 0 ($desktop-padding - 0.5em);
    padding-bottom: ($desktop-padding - 0.5em);
@@ -178,7 +182,11 @@ header {
    @include MQ(S) {
      padding-left: $desktop-padding;
      padding-right: $desktop-padding;
+     -webkit-column-count: 3;
+     -moz-column-count: 3;
      column-count: 3;
+     -webkit-column-gap: 1em;
+     -moz-column-gap: 1em;
      column-gap: 1em;
    }
  }
