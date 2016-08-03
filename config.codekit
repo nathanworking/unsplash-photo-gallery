@@ -119,6 +119,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/js\/bundle.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/bundle.js",
+		"outputAbbreviatedPath": "\/js\/min\/bundle-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/js\/main.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -136,6 +147,39 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/min\/main-min.js",
 		"outputAbbreviatedPath": "\/js\/min\/min\/main-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/min\/unsplash-api-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/min\/unsplash-api-min.js",
+		"outputAbbreviatedPath": "\/js\/min\/min\/unsplash-api-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/min\/unsplash-source.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/min\/unsplash-source.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/min\/unsplash-source.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/plugins\/colorbox\/jquery.colorbox-min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/plugins\/colorbox\/jquery.colorbox-min.js",
+		"outputAbbreviatedPath": "\/js\/plugins\/colorbox\/min\/jquery.colorbox-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -189,6 +233,77 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/plugins\/lightgallery\/lightgallery.min.js",
 		"outputAbbreviatedPath": "\/js\/plugins\/lightgallery\/min\/lightgallery.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/plugins\/magnific-popup\/jquery.magnific-popup.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/js\/plugins\/magnific-popup\/jquery.magnific-popup.min.js",
+		"outputAbbreviatedPath": "\/js\/plugins\/magnific-popup\/min\/jquery.magnific-popup.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/plugins\/magnific-popup\/magnific-popup.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/plugins\/magnific-popup\/magnific-popup.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/js\/plugins\/swipebox\/css\/swipebox.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/plugins\/swipebox\/css\/swipebox.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/js\/plugins\/swipebox\/css\/swipebox.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/plugins\/swipebox\/css\/swipebox.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/js\/plugins\/swipebox\/img\/icons.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 729,
+		"inputAbbreviatedPath": "\/js\/plugins\/swipebox\/img\/icons.png",
+		"outputAbbreviatedPath": "\/js\/plugins\/swipebox\/img\/icons.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/js\/plugins\/swipebox\/js\/jquery.swipebox.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/plugins\/swipebox\/js\/jquery.swipebox.js",
+		"outputAbbreviatedPath": "\/js\/plugins\/swipebox\/js\/min\/jquery.swipebox-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/plugins\/swipebox\/js\/jquery.swipebox.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/plugins\/swipebox\/js\/jquery.swipebox.min.js",
+		"outputAbbreviatedPath": "\/js\/plugins\/swipebox\/js\/min\/jquery.swipebox.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -363,7 +478,7 @@
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
 	"displayValue": "unsplash-photo-gallery",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "harddrive_yellow"
 	},
 "projectSettings": {
@@ -521,7 +636,7 @@
 	"coffeeMinifyOutput": 1,
 	"coffeeOutputStyle": 0,
 	"coffeeSyntaxCheckerStyle": 1,
-	"externalServerAddress": "http:\/\/localhost:8888",
+	"externalServerAddress": "http:\/\/localhost:8888\/unsplash-photo-gallery",
 	"externalServerPreviewPathAddition": "",
 	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
 	"hamlAutoOutputPathEnabled": 1,

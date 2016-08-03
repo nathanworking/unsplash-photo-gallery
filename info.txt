@@ -1,0 +1,22 @@
+URL: https://api.flickr.com/services/rest/?method=flickr.people.getPublicPhotos&api_key=5f61faab30dd5d0f608598717b6a128b&user_id=145767865%40N05&format=json&nojsoncallback=1&auth_token=72157671784650036-ebc0beff514d3460&api_sig=ef0058740a2039119b6632ffa3756114
+
+
+https://unsplash.com/oauth/token?client_id=1fc3cf0554dd08f8491af5cd37ac945bebde6b5032613d61419f2b92ddde1d9a&client_secret=963dc4c204b4693dd4bf260797995c888be350c1d46bfd8a6ef965cbe9704621&redirect_uri=http%3A%2F%2Fnathanworking.com&code=16e9c558a80222c8cc41cfc5dc70feb028bc3e1c3869910fbc2428e6ef2caf63&grant_type=authorization_code&format=json
+
+
+
+2.0 // Note, only code is different
+
+ID:
+1fc3cf0554dd08f8491af5cd37ac945bebde6b5032613d61419f2b92ddde1d9a
+
+Secret:
+963dc4c204b4693dd4bf260797995c888be350c1d46bfd8a6ef965cbe9704621
+
+Code:
+99d758294f59539bb7e54668db99d14c5a44432785a7d0ebbe24634723bc40e6
+
+CallbackUrl: 
+http://nathanworking.com/
+
+http://nathanworking.com/?code=99d758294f59539bb7e54668db99d14c5a44432785a7d0ebbe24634723bc40e6

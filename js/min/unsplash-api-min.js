@@ -1,0 +1,1 @@
+$.ajax({type:"get",url:"https://api.unsplash.com/users/nathananderson/photos/",data:{client_id:"1fc3cf0554dd08f8491af5cd37ac945bebde6b5032613d61419f2b92ddde1d9a"},success:function(a){console.log(a)}});

@@ -28,6 +28,7 @@ header {
   align-content: flex-start;
   flex-wrap: wrap;
   padding: 0 ($desktop-padding - 1em);
+
   .filter {
     @extend %SecondaryFont;
     font-size: $primary;
@@ -38,7 +39,6 @@ header {
     margin: 0.5em 0.5em;
     cursor: pointer;
     transition: background 0.2s;
-    transition-delay: color 0.5s;
     &:first-of-type {
       padding: 0.35em 1.5em;
     }
@@ -46,12 +46,13 @@ header {
       @extend %PrimaryFont;
       color: $site-base-light-color;
       background: $site-base-primary-color;
+      cursor: pointer;
     }
     @include MQ(S) {
       margin: 1em 1em;
     }
   }
-  .filter.active_filter {
+  .filter.active {
     @extend %PrimaryFont;
     color: $site-base-light-color;
     background: $site-base-primary-color;
@@ -79,6 +80,7 @@ header {
        margin-top: 10%;
        @include MQ(S) {
          max-width: 850px;
+         margin-top: 0;
          vertical-align: middle;
        }
      }
@@ -86,7 +88,6 @@ header {
        background: none;
      }
   }
-
 
   .lg-actions .lg-next, .lg-actions .lg-prev, .lg-toolbar {
     background: none;
@@ -157,38 +158,36 @@ header {
 
   /// Edits to Photo grid view & lightbox view (after lightbox style overrides becuase these are even more specific)
  .content {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-between;
+   column-count: 1;
+   column-gap: 0;
    padding: 0 ($desktop-padding - 0.5em);
+   padding-bottom: ($desktop-padding - 0.5em);
    .tile {
-     height: auto;
      margin-top: 1em;
+     display: inline-block;
+     width: 100%;
+     background-color: #000000;
      &:hover {
        opacity: 0.9;
-       transition: all 0.3s ease-in-out;
+       transition: all 0.2s ease-in-out;
      }
-     .caption-box {
-       display: none;
-     }
-     .image-tile {
+     .photo {
        width: 100%;
-       @include MQ(S) {
-         max-width: 300px;
-       }
-       @include MQ(L) {
-         max-width: 450px;
-       }
      }
    }
-
    @include MQ(S) {
      padding-left: $desktop-padding;
      padding-right: $desktop-padding;
+     column-count: 3;
+     column-gap: 1em;
    }
  }
 
- .photo-extras {
+ .caption-box {
+   display: none;
+ }
+
+ .photo-description {
    padding: 0.25em 0;
    span {
      @extend %SecondaryFont;
